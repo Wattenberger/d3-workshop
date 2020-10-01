@@ -1,11 +1,11 @@
 # Week 1
 
 - **INTRO**: ~15 min
-- **PART I**:
+- **PART I**: drawing in the browser
   - 25 min walk-through, 10 min exercise, 10 min share, 5 min break
-- **PART II**:
+- **PART II**: create our first chart1
   - 25 min walk-through, 10 min exercise, 10 min share, 5 min break
-- **PART III**:
+- **PART III**: create a scatterplot
   - 25 min walk-through, 10 min exercise, 10 min share, 5 min break
 - **WRAP UP**: ~5 min
 - **go over HOMEWORK**: ~5 min
