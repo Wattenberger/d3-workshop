@@ -100,6 +100,7 @@ re-create our timeline
   - work as much from memory as possible
   - check the finished code we created on Thursday if you need a hint:
   [finished code](https://codesandbox.io/s/d3-workshop-timeline-3fk7g)
+  - if you want a reminder of why we did each step, reading Chapter 1 of Fullstack D3 goes through the same steps and uses similar language. Might be worth a skim!
 
   - send me questions or your CodeSandbox link if you run into questions or issues: wattenberger@gmail.com
 
