@@ -6,7 +6,7 @@
 - **PART II: create our first chart**
   - 25 min walk-through, 10 min exercise, 10 min share, 5 min break
 - **PART III: create a scatterplot**
-  - 25 min walk-through, 10 min exercise, 10 min share, 5 min break
+  - 25 min walk-through, 10 min exercise, 10 min share
 - **WRAP UP**: ~5 min
 - **go over HOMEWORK**: ~5 min
 
@@ -24,6 +24,7 @@
 
   - web development basics
     - HTML
+      - https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
   - go over svg vs html
     - raster vs svg
       - example: https://wattenberger.com/blog/svg#1
@@ -79,10 +80,10 @@
           - hint: https://github.com/d3/d3-shape#area
     - **SHARE**: save your work & share your link
       - what was hard or confusing?
-      - which parts did you need to look up?
+      - which parts did you need to check?
 
 - **PART III**
-  - 25 min walk-through, 10 min exercise, 10 min share, 5 min break
+  - 25 min walk-through, 10 min exercise, 10 min share
   - let's draw a scatterplot
     - re-fork the template:
       - https://codesandbox.io/s/d3-workshop-mnn9f?file=/index.html
