@@ -87,13 +87,14 @@
     - using d3 to make our lives easier
       - creating path d attributes
       - joining DOM elements with data
-  - next week: animations & interacting with our charts
+  - next week: scatter plots, data-binding, & animations
 
 ---
 
 # Homework
 
 re-create our timeline
+  - fork [our template](https://codesandbox.io/s/d3-workshop-mnn9f?file=/index.html)
   - grab your [weather data](https://drive.google.com/drive/folders/1I5qRszQf7jGmEx5GaX1sinC0OrvkBZko)
 
   - work as much from memory as possible
