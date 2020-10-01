@@ -1,14 +1,13 @@
 # Week 1
 
+---
+
 - **INTRO**: ~15 min
 - **PART I: drawing in the browser**
   - 25 min walk-through, 10 min exercise, 10 min share, 5 min break
 - **PART II: create our first chart**
-  - 25 min walk-through, 10 min exercise, 10 min share, 5 min break
-- **PART III: create a scatterplot**
-  - 25 min walk-through, 10 min exercise, 10 min share
+  - 1 hour 20 min walk-through, 10 min exercise
 - **WRAP UP**: ~5 min
-- **go over HOMEWORK**: ~5 min
 
 ---
 
@@ -56,6 +55,7 @@
   - move over to javascript
     - talk about why we'll change the page using javascript instead
     - what is d3.js?
+      - ![](./../images/js-chart-libs.png)
       - show https://wattenberger.com/blog/d3
   - let's draw a timeline
     - access our data
@@ -78,50 +78,6 @@
         - ![](http://pythonturtle.org/images/screenshot.gif)
       - generator functions
     - draw axes
-    - **EXERCISE**: re-create the chart yourself
-      - grab your weather data
-        - https://drive.google.com/drive/folders/1I5qRszQf7jGmEx5GaX1sinC0OrvkBZko
-        - download,
-      - as much from memory as possible
-      - *if you finish early*
-        - switch to a different metric
-        - draw a rectangle behind your birthday
-        - how would you switch to an area chart?
-          - hint: https://github.com/d3/d3-shape#area
-    - **SHARE**: save your work & share your link
-      - what was hard or confusing?
-      - which parts did you need to check?
-
-- **PART III**
-  - 25 min walk-through, 10 min exercise, 10 min share
-  - let's draw a scatterplot
-      - ![](./../images/scatterplot-finished.png)
-    - re-fork the template:
-      - https://codesandbox.io/s/d3-workshop-mnn9f?file=/index.html
-    - go over checklist
-      - ![elements](./../images/chart-checklist.png)
-    - start from the top:
-      - access data
-      - create dimensions
-        - make a square chart
-        - d3.min
-      - draw canvas
-      - create scales
-        - .nice()
-        - ![](../images/scatterplot-not-nice.png)
-      - draw data
-        - data join
-        - ![](../images/join-v2.png)
-        - .join()
-      - draw peripherals
-        - axis labels
-      - **EXERCISE**: re-create the chart yourself
-        - *if you finish early*
-          - add another metric:
-            - temperature as the circle radius
-            - wind speed as the circle color
-      - **SHARE**: save your work & share your link
-        - were some part easier this second time?
 
 - **WRAP UP**
   - recap:
@@ -133,6 +89,21 @@
       - joining DOM elements with data
   - next week: animations & interacting with our charts
 
-- **HOMEWORK**
-  - create a bar chart
-  - *without* looking up examples
+---
+
+# Homework
+
+re-create our timeline
+  - grab your [weather data](https://drive.google.com/drive/folders/1I5qRszQf7jGmEx5GaX1sinC0OrvkBZko)
+
+  - work as much from memory as possible
+  - check the finished code we created on Thursday if you need a hint:
+  [finished code](https://codesandbox.io/s/d3-workshop-timeline-3fk7g)
+
+  - send me questions or your CodeSandbox link if you run into questions or issues: wattenberger@gmail.com
+
+  - *if you want more of a challenge after you finish*
+    - switch to a different metric
+    - draw a rectangle behind your birthday
+    - how would you switch to an area chart?
+      - hint: https://github.com/d3/d3-shape#area
