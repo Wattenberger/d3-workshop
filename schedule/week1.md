@@ -14,6 +14,11 @@
 
 - **INTRO**
   - introduce ourselves
+  - what are we learning in this workshop?
+  - what are the advantages of visualizing data in the browser?
+    - easy to access
+    - interactive
+    - very customizable
   - set everyone up with a code sandbox
 
 - **PART I**
@@ -64,9 +69,14 @@
       - ![](../images/wrapper-bounds.png)
     - create dimensions
     - draw wrapper & bounds
+      - d3 selection objects
+      - ![](../images/svg-elements.png)
     - create scales (x & y)
     - ![](../images/scale-temp-px.png)
     - draw data! (d3.line)
+      - path d attribute
+        - ![](http://pythonturtle.org/images/screenshot.gif)
+      - generator functions
     - draw axes
     - **EXERCISE**: re-create the chart yourself
       - grab your weather data
@@ -85,6 +95,7 @@
 - **PART III**
   - 25 min walk-through, 10 min exercise, 10 min share
   - let's draw a scatterplot
+      - ![](./../images/scatterplot-finished.png)
     - re-fork the template:
       - https://codesandbox.io/s/d3-workshop-mnn9f?file=/index.html
     - go over checklist
@@ -92,6 +103,8 @@
     - start from the top:
       - access data
       - create dimensions
+        - make a square chart
+        - d3.min
       - draw canvas
       - create scales
         - .nice()
@@ -99,6 +112,7 @@
       - draw data
         - data join
         - ![](../images/join-v2.png)
+        - .join()
       - draw peripherals
         - axis labels
       - **EXERCISE**: re-create the chart yourself
