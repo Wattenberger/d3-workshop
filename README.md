@@ -11,11 +11,11 @@ We'll be using **CodeSandbox** for collaborative coding. Make sure to [create an
 
 ## Our schedule
 
-**Week 1**: October 1st
+[**Week 1**](./schedule/week1.md): October 1st
 
-**Week 2**: October 8th
+[**Week 2**](./schedule/week2.md): October 8th
 
-**Week 3**: October 15th
+[**Week 3**](./schedule/week3.md): October 15th
 
 
 ## D3 resources
