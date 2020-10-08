@@ -67,7 +67,8 @@ Today, we'll be solidifying our foundation of how to make charts, while also lea
 - **WRAP UP**: ~5 min
 
 - **HOMEWORK**
-  - update your scatter plots
-    - add enter, update, and exit transitions as you like
+  - play around with the onEnter, onUpdate, and onExit transitions to get a feel for them
+    - [our sandbox](https://codesandbox.io/s/d3-workshop-animated-scatter-plot-xp1jc?file=/index.js)
     - extra credit:
+      - have the circles draw in one at a time
       - switch to rectangles instead of circles
