@@ -1,40 +1,73 @@
 # Week 2
 
-- animations & transitions
-- interactions
+Today, we'll be solidifying our foundation of how to make charts, while also learning how to add transitions and animations
+
+---
+
+- **INTRO**: ~30 min
+- **PART I: drawing a scatter plot**
+  - 30 min walk-through, 10 min exercise, 10 min share, 5 min break
+- **PART II: animating changes**
+  - 15 min walk-through, 10 min exercise, 10 min share, 5 min break
+- **PART III: animating changes in our chart**
+  - 20 min walk-through, 10 min exercise
+- **WRAP UP**: ~5 min
+
+---
 
 
-- **SHARE**: save your work & share the link of your timeline
-  - what was hard or confusing?
-  - which parts did you need to check?
+- **INTRO**
+  - **SHARE**: save your work & share the link of your timeline
+    - how did the exercise go?
+    - questions:
+      - what was the most challenging part?
+      - any lingering questions that we can clear up, or concepts that could use another explanation?
+      - what went well?
+    - let's go over the extra credit bit:
+      - draw a rectangle behind your birthday
 
 - **PART I**
-  - 25 min walk-through, 10 min exercise, 10 min share
+  - 30 min walk-through, 10 min exercise, 10 min share
   - let's draw a scatterplot
       - ![](./../images/scatterplot-finished.png)
-    - re-fork the template:
-      - https://codesandbox.io/s/d3-workshop-mnn9f?file=/index.html
-    - go over checklist
+    - fork the timeline:
+      - https://codesandbox.io/s/d3-workshop-timeline-3fk7g
+    - go over each step
       - ![elements](./../images/chart-checklist.png)
-    - start from the top:
-      - access data
-      - create dimensions
-        - make a square chart
-        - d3.min
-      - draw canvas
-      - create scales
-        - .nice()
-        - ![](../images/scatterplot-not-nice.png)
-      - draw data
-        - data join
-        - ![](../images/join-v2.png)
-        - .join()
-      - draw peripherals
-        - axis labels
-      - **EXERCISE**: re-create the chart yourself
+      - switch to square chart
+      - drawing dots with a for loop
+      - data join
+        - ![](./../images/join.png)
+      - add axis labels
+      - **EXERCISE**: change your timeline into a scatter plot
         - *if you finish early*
-          - add another metric:
-            - temperature as the circle radius
-            - wind speed as the circle color
+          - change the metric:
+            - use temperatureMax as the circle radius
+            - use windSpeed as the circle color
       - **SHARE**: save your work & share your link
-        - were some part easier this second time?
+
+- **PART II: animating changes**
+  - 15 min walk-through, 10 min exercise, 10 min share, 5 min break
+  - let's fork a new sandbox
+  - transition, duration
+  - delay, [easing](https://github.com/d3/d3-ease)
+  - **EXERCISE**:
+    - three exercises: https://codesandbox.io/s/d3-workshop-animation-exercise-lhvtc?file=/index.js
+
+- **PART III: animating changes in our chart**
+  - 30 min walk-through, 10 min exercise
+  - why would we want to animate changes?
+  - let's animate our circles!
+    - isolate into a function we can call with different data
+    - chunk and `setTimeout` between draws
+    - transitioning updates
+    - separate enter, update, exit transitions
+    - using a key to tell d3 what data points are the same
+
+- **WRAP UP**: ~5 min
+
+- **HOMEWORK**
+  - update your scatter plots
+    - add enter, update, and exit transitions as you like
+    - extra credit:
+      - switch to rectangles instead of circles
