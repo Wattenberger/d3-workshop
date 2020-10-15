@@ -77,7 +77,7 @@ const selectOrCreate = (elementType, className, parent) => {
       - extra credit:
         - change the color of the hovered dot
           - hint: it might be easier to create a new dot and hide/show/move it around
-- **PART III: (if we have the time) adding a date filter**
+### **PART III: (if we have the time) adding a date filter**
   - what are some ways users can interact with a chart
     - some examples: https://loa.mit.edu/#/Database
     - wackier examples: https://wattenberger.com/wdvp
