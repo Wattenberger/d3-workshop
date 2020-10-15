@@ -49,9 +49,8 @@ Today, we'll be solidifying our foundation of animations, and learning about mak
 - **PART II: adding a tooltip**
   - 30 min walk-through, 10 min exercise, 10 min share
     - [base sandbox](https://codesandbox.io/s/d3-workshop-scatterplot-qqvdx)
-    - let's add dropdown to select which metrics we're looking at
     - creating the tooltip
-    - there are a lot of needed styles - put them in their own .css file    -
+    - there are a lot of needed styles - put them in their own .css file
     - .on("mouseenter")
       - function parameters: event, d
     - position & change the text
@@ -89,4 +88,5 @@ const getNumberOfDaysAway = (date1, date2) => {
     - transition our axes -->
 
 - **WRAP UP**: ~5 min
+  - quick run through of [recap doc](./../recap.md)
 - **Q & A**: 20 min
