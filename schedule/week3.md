@@ -1,6 +1,6 @@
 # Week 3
 
-Today, we'll be solidifying our foundation of animations, and learning about making our charts interactive! This is our last session, so I'll leave 20 minutes at the end for Q & A.
+Today, we'll be solidifying our foundation of animations, and learning about making our charts interactive! Sadly, this is our last session, but I'll leave 20 minutes at the end for Q & A.
 
 ---
 
@@ -9,7 +9,7 @@ Today, we'll be solidifying our foundation of animations, and learning about mak
   - 30 min walk-through, 10 min exercise, 10 min share, 5 min break
 - **PART II: adding a tooltip**
   - 30 min walk-through, 10 min exercise, 10 min share, 5 min break
-- **PART III: adding a date filter**
+- **PART III: (if we have the time) adding a date filter**
   - 20 min walk-through, 10 min exercise
 - **WRAP UP**: ~5 min
 - **Q & A**: 20 min
@@ -27,10 +27,13 @@ Today, we'll be solidifying our foundation of animations, and learning about mak
 - **PART I: events in the browser**
   - 30 min walk-through, 10 min exercise, 10 min share
     - [base sandbox](https://codesandbox.io/s/d3-workshop-scatterplot-qqvdx)
+    - small tangent: I added labels
+      - text-anchor
+      - transform: rotate
     - what events are available in a browser?
       - https://wattenberger.com/blog/d3-interactive-charts
     - d3 selection .on() [docs](https://github.com/d3/d3-selection/#selection_on)
-    - let's resize our chart on window resize?
+    - let's resize our chart on window resize
       - adding an event listener
       - turning our code into a repeatable function
         - put a check next to each step that we need to run again, after the window is resized
@@ -62,7 +65,7 @@ Today, we'll be solidifying our foundation of animations, and learning about mak
       - extra credit:
         - change the color of the hovered dot
           - hint: it might be easier to create a new dot and hide/show/move it around
-- **PART III: adding a date filter**
+- **PART III: (if we have the time) adding a date filter**
   - what are some ways users can interact with a chart
     - some examples: https://loa.mit.edu/#/Database
     - wackier examples: https://wattenberger.com/wdvp
@@ -90,3 +93,6 @@ const getNumberOfDaysAway = (date1, date2) => {
 - **WRAP UP**: ~5 min
   - quick run through of [recap doc](./../recap.md)
 - **Q & A**: 20 min
+  - questions about what we've covered so far
+  - questions about d3.js / data visualization in the browser
+  - questions about web development in general
