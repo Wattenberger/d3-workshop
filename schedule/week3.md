@@ -17,7 +17,7 @@ Today, we'll be solidifying our foundation of animations, and learning about mak
 ---
 
 - **INTRO**
-  - **SHARE**: save your work & share the link of your scatterplot (totally optional!)
+  - **SHARE**: save your work & share the link of your scatter plot (totally optional!)
     - how did the exercise go?
     - questions:
       - what parts were confusing?
@@ -27,7 +27,9 @@ Today, we'll be solidifying our foundation of animations, and learning about mak
 - **PART I: events in the browser**
   - 30 min walk-through, 10 min exercise, 10 min share
     - [base sandbox](https://codesandbox.io/s/d3-workshop-scatterplot-qqvdx)
-    - small tangent: I added labels
+    - small tangent 1: concurrent transitions
+      - https://codesandbox.io/s/d3-workshop-animation-exercise-concurrent-answer-c10j6?file=/index.js:1077-1482
+    - small tangent 2: I added labels
       - text-anchor
       - transform: rotate
     - what events are available in a browser?
