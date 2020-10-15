@@ -51,14 +51,14 @@ const selectOrCreate = (elementType, className, parent) => {
 }
 ```
 
-  **EXERCISE**
-      - re-create this with a forked scatterplot
-        - [base sandbox](https://codesandbox.io/s/d3-workshop-scatterplot-qqvdx)
-      - extra credit:
-        - can you animate this change?
-        - how can you use the .ticks() function to make sure the ticks don't get too crowded?
-          - hint: `xAxisGenerator.ticks(5)` aims for 5 ticks
-        - how can you shrink the dots to shrink with the window size?
+**EXERCISE**
+- re-create this with a forked scatterplot
+  - [base sandbox](https://codesandbox.io/s/d3-workshop-scatterplot-qqvdx)
+  - extra credit:
+    - can you animate this change?
+    - how can you use the .ticks() function to make sure the ticks don't get too crowded?
+      - hint: `xAxisGenerator.ticks(5)` aims for 5 ticks
+    - how can you shrink the dots to shrink with the window size?
     - 10 minute share
     - 5 minute break
 - **PART II: adding a tooltip**
