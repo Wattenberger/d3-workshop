@@ -109,7 +109,6 @@ We don't want to create any one-off elements inside this function, so we'll make
 
 ```js
 const selectOrCreate = (elementType, className, parent) => {
-  parent = parent || wrapper
   const selection = parent.select("." + className)
   if (!selection.empty()) return selection
   return parent.append(elementType)

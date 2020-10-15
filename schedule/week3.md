@@ -39,6 +39,14 @@ Today, we'll be solidifying our foundation of animations, and learning about mak
         - put a check next to each step that we need to run again, after the window is resized
         - ![](../images/chart-checklist.png)
         - selectOrCreate function
+```js
+const selectOrCreate = (elementType, className, parent) => {
+  const selection = parent.select("." + className)
+  if (!selection.empty()) return selection
+  return parent.append(elementType)
+      .attr("class", className)
+}
+```
     - **EXERCISE**
       - re-create this with a forked scatterplot
         - [base sandbox](https://codesandbox.io/s/d3-workshop-scatterplot-qqvdx)
