@@ -81,6 +81,8 @@ const selectOrCreate = (elementType, className, parent) => {
   - what are some ways users can interact with a chart
     - some examples: https://loa.mit.edu/#/Database
     - wackier examples: https://wattenberger.com/wdvp
+  - the goal is to create a bar that changes which days are showing, based on where you hover
+   - completed example: https://codesandbox.io/s/d3-workshop-scatterplot-with-time-bar-3lbwk?file=/index.js
   - create a slider that sits across the top of the chart, with a text element showing the hovered date
   - create an `.on("mousemove")` event
   - get the x position, then invert it to get the date
