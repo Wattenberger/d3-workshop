@@ -27,6 +27,7 @@ Today, we'll be solidifying our foundation of animations, and learning about mak
 - **PART I: events in the browser**
   - 30 min walk-through, 10 min exercise, 10 min share
     - [base sandbox](https://codesandbox.io/s/d3-workshop-scatterplot-qqvdx)
+    - [finished example](https://codesandbox.io/s/d3-workshop-scatterplot-with-resize-fhm3i?file=/index.js)
     - small tangent 1: concurrent transitions
       - https://codesandbox.io/s/d3-workshop-animation-exercise-concurrent-answer-c10j6?file=/index.js:1077-1482
     - small tangent 2: I added labels
@@ -64,6 +65,7 @@ const selectOrCreate = (elementType, className, parent) => {
 - **PART II: adding a tooltip**
   - 30 min walk-through, 10 min exercise, 10 min share
     - [base sandbox](https://codesandbox.io/s/d3-workshop-scatterplot-qqvdx)
+    - [finished example](https://codesandbox.io/s/d3-workshop-scatterplot-with-tooltip-wlhb1)
     - creating the tooltip
     - there are a lot of needed styles - put them in their own .css file
     - .on("mouseenter")
