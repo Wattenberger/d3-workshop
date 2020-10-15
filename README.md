@@ -38,6 +38,7 @@ As for your scatter plot, it's really impressive as is! Share it around and brag
 
 If you want to continue tinkering with it, here are a few exercise ideas:
 
+- check out [the last exercise](./schedule/week3.md#part-iii-if-we-have-the-time-adding-a-date-filter)
 - change the metrics to ones you're curious about
 - add a color scale and legend
 - add a radius scale and legend
