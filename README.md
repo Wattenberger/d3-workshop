@@ -26,6 +26,7 @@ We'll be using **CodeSandbox** for collaborative coding. Make sure to [create an
 
 - [Observable](https://observablehq.com/@d3/gallery): lots of d3 examples in a notebook layout
 
+- [Learn JS data](http://learnjsdata.com/): guide for how to manipulate data in Javascript
 
 ## What's next?
 
